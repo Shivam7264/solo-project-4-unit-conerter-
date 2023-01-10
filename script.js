@@ -9,6 +9,7 @@ btnEl.addEventListener("click",function(){
     arr.push(boxEl.value)
     localStorage.setItem("arr",JSON.stringify(arr))
     print(arr)
+    arr.pop()
 })
 
 function print(arr){
